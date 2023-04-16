@@ -6,7 +6,7 @@ https://zratrout.wixsite.com/jazs
 
 This Github contains an example for how our backend processes Twitter and play-by-play (pbp) data. 
 
-In this example, I am generating an image from a game between the Dallas Mavericks and the Golden State Warriors. The tweet we are looking at is "LD out here playing bully ball 🤯" (https://t.co/BVdnaUcjhl). Tweets are selected only among those with the most fan interactions per game.
+In this example, I am generating an image from a game between the Dallas Mavericks and the Phoenix Suns. The tweet we are looking at is "LD out here playing bully ball 🤯" (https://t.co/BVdnaUcjhl). Tweets are selected only among those with the most fan interactions per game.
 
 The program selects pbps which occurred at least 5 minutes before the tweet was created. Then, it makes an API call to respell to determine which selected pbp best relates to the tweet. Then, the respell-selected pbp is passed to the Wombo/Dream API to generate an image of the pbp.
 
